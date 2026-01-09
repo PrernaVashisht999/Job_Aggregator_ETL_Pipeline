@@ -9,16 +9,22 @@ Project Overview ✨
 This project is a fully functional ETL pipeline that collects job postings from Google Jobs via SerpApi, processes the data using PySpark on Databricks, and generates actionable insights on top hiring companies, trending roles, and in-demand skills.
 It demonstrates a production-ready ETL workflow using Databricks’ medallion architecture, efficiently handling semi-structured API data and producing clean outputs for analysis.
 
-Tech Stack 🛠️
+👉 Tech Stack 🛠️
 
-• Databricks, Apache Spark, PySpark
+• Databricks
+
+• Apache Spark
+
+• PySpark
+
+• Spark SQL
 
 • Python (Pandas, Requests)
 
 • SerpApi / Google Jobs API
 
 
-Approach / Methodology (Medallion Layers) 🏗️
+👉 Approach / Methodology (Medallion Layers) 🏗️
 
 
 1️⃣ Bronze Layer – Data Collection
@@ -50,7 +56,7 @@ Approach / Methodology (Medallion Layers) 🏗️
 • Stored raw JSON responses in the Bronze layer
 
 
-Key Insights / Conclusion 💡
+👉 Key Insights / Conclusion 💡
 
 
 • Dominant Roles: Data and tech jobs dominate postings
